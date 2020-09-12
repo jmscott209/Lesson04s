@@ -9,6 +9,7 @@
     #EAEAEA Platinum rgb(234,234,234)
     #FB3640 Red Slate rgb(251,54,64)
     #727072 Sonic Silver rgb(114,112,114)
+    #7B0D1E Burgundy rgb(123,13,30)
 
 */
 
@@ -50,7 +51,7 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    margin: .5em 0 .5em 0;
+    margin: 1em 0 .5em 0;
 }
 
 h2 {
@@ -69,6 +70,32 @@ h1, h2 {
     padding: 60px 0;
 }
 
+/* Nav
+----------------------------------------------------*/
+.nav {
+    background: #EAEAEA;
+    padding: 0 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.navL {
+    display: inline-block;
+}
+
+.navL a {
+    text-decoration: none;
+    padding: 0 40px;
+    color: #101D42;
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+} 
+
+.navL a:hover {
+    color: #6E7E85;
+}
+
 /* Profile
 ----------------------------------------------------*/
 header {
@@ -84,6 +111,8 @@ header {
 
 .projects a {
     color: #555568;
+    text-decoration: none;
+
 }
 
 .projects .btn {
@@ -112,6 +141,19 @@ header {
 
 .projects-item h3 {
     margin-top: 0;
+
+}
+
+.projects h3 a {
+    color: #101D42;
+}
+
+.projects h3 a:hover {
+    color: #555568;
+}
+
+.projects a img:hover {
+    opacity: .8;
 }
 
 /* Work Experience
